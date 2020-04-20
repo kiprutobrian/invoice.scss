@@ -1,0 +1,157 @@
+/* Light */
+@font-face {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local("Avenir Light"), local("Avenir-Light"), url("/fonts/Avenir Light.otf") format("opentype"); }
+
+/* Medium */
+@font-face {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("Avenir Medium"), local("Avenir-Medium"), url("/fonts/Avenir Medium.otf") format("opentype"); }
+
+/* Black */
+@font-face {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local("Avenir Black"), local("Avenir-Black"), url("/fonts/Avenir Black.otf") format("opentype"); }
+
+/* Heavy */
+@font-face {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Avenir Heavy"), local("Avenir-Heavy"), url("/fonts/Avenir Heavy.otf") format("opentype"); }
+
+.h1 {
+  color: #000000;
+  font-family: "Avenir";
+  font-size: 55px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0; }
+
+.h2 {
+  color: #000000;
+  font-family: "Avenir";
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.34px;
+  margin: 0; }
+
+.h3 {
+  color: #000000;
+  font-family: "Avenir";
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.34px;
+  margin: 0; }
+
+.h4 {
+  color: #000000;
+  font-family: "Avenir";
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0; }
+
+.h2,
+.h3,
+.h4 {
+  margin-bottom: 10px; }
+
+p {
+  color: #666666;
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.6;
+  margin: 0; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap; }
+
+.invoice-container {
+  max-width: 660px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto; }
+  .invoice-container .navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0; }
+    .invoice-container .navbar .logo {
+      width: 140px; }
+  .invoice-container .header-section {
+    margin: 65px 0 0 0;
+    align-items: center;
+    justify-content: space-between; }
+    .invoice-container .header-section .to p,
+    .invoice-container .header-section .from p {
+      white-space: nowrap; }
+  .invoice-container .description-section {
+    min-height: 300px; }
+    .invoice-container .description-section .table {
+      width: 100%;
+      margin: 10px 0;
+      border-collapse: collapse; }
+      .invoice-container .description-section .table thead th {
+        padding: 10px 0;
+        vertical-align: top;
+        border-top: 1px solid #999999;
+        vertical-align: bottom;
+        border-bottom: 2px solid #999999;
+        text-align: left;
+        color: #000000;
+        font-family: "Avenir";
+        font-size: 16px;
+        font-weight: 600; }
+      .invoice-container .description-section .table tbody th, .invoice-container .description-section .table tbody td {
+        text-align: left;
+        padding: 10px 0 15px 0;
+        color: #333333;
+        font-family: "Avenir";
+        font-size: 12px;
+        font-weight: 600; }
+        .invoice-container .description-section .table tbody th p, .invoice-container .description-section .table tbody td p {
+          padding: 10px 0 10px 0; }
+  .invoice-container .remarks-section {
+    margin: 0 0 40px 0; }
+    .invoice-container .remarks-section .col-7 {
+      width: 58.33333333%; }
+      .invoice-container .remarks-section .col-7 p {
+        margin: 0 0 25px 0; }
+    .invoice-container .remarks-section .col-5 {
+      width: 41.66666667%; }
+      .invoice-container .remarks-section .col-5 .table {
+        width: 90%;
+        margin: 0 0 0 auto;
+        border-collapse: collapse; }
+        .invoice-container .remarks-section .col-5 .table .divider {
+          vertical-align: top;
+          border-top: 1px solid #999999;
+          vertical-align: bottom;
+          border-bottom: 1px solid #999999; }
+          .invoice-container .remarks-section .col-5 .table .divider td {
+            padding: 10px 0 15px 0;
+            font-size: 16px; }
+        .invoice-container .remarks-section .col-5 .table tbody td {
+          text-align: right;
+          padding: 5px;
+          color: #333333;
+          font-family: "Avenir";
+          font-size: 12px;
+          font-weight: 600; }

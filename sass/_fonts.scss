@@ -1,0 +1,37 @@
+/* Light */
+@font-face {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local('Avenir Light'), local('Avenir-Light'), url('/fonts/Avenir Light.otf') format('opentype');
+}
+
+/* Medium */
+@font-face {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Avenir Medium'), local('Avenir-Medium'), url('/fonts/Avenir Medium.otf') format('opentype');
+}
+
+/* Black */
+@font-face {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: local('Avenir Black'), local('Avenir-Black'), url('/fonts/Avenir Black.otf') format('opentype');
+}
+
+/* Heavy */
+@font-face {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Avenir Heavy'),
+    local('Avenir-Heavy'),
+    url('/fonts/Avenir Heavy.otf') format('opentype');
+}
